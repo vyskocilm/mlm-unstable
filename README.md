@@ -17,3 +17,6 @@ Tested on rustc-1.9.
 ## How to contribute
 
 Just send a PR on github
+
+## Next problem
+Provide safe and idiomatic interface on top of extern unsafe functions.
