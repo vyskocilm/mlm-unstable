@@ -2,6 +2,16 @@
 name = "mlm-unstable"
 version = "0.1.0"
 authors = ["Michal Vyskocil <michal.vyskocil@gmail.com>"]
+description = "playground for learning Rust and ffi"
+repository = "https://github.com/vyskocilm/mlm-unstable/"
+readme = "README.md"
+license = "MIT"
+license-file = "LICENSE"
+link = "zmq czmq mlm"
 
 [dependencies]
 libc = "0.2.0"
+
+[build-dependencies]
+pkg-config = "0.3"
+gcc = "0.3.17"
